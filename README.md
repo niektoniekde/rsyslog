@@ -9,7 +9,7 @@ Custom basic configuration file provided as parameter to ``rsyslogd`` is strippe
 version of original one located at ``/etc/rsyslog.conf``.
 
 Additional configuration is expected as **optional** from volume mounted at:  
-``/usr/local/etc/rsyslog/conf.d``
+``/usr/local/etc/rsyslog/conf.d``  
 Files placed there have to match ``*.conf`` naming pattern to be included. 
 
 ## Volumes
