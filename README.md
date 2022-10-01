@@ -8,8 +8,9 @@ Entrypoint is ``rsyslogd`` executable with following arguments:
 Custom basic configuration file provided as parameter to ``rsyslogd`` is stripped
 version of original one located at ``/etc/rsyslog.conf``.
 
-Additional configuration is expected as optional from volume mounted at:  
+Additional configuration is expected as **optional** from volume mounted at:  
 ``/usr/local/etc/rsyslog/conf.d``
+Files placed there have to match ``*.conf`` naming pattern to be included. 
 
 ## Volumes
 There are two volumes by default, one for configuration files and one for data:
