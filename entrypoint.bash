@@ -1,4 +1,6 @@
 #! /bin/bash
+set -eux
+
 LETCD="/usr/local/etc/rsyslog"
 CONFD="${LETCD}/conf.d"
 DATAD="/srv/data/rsyslog"
